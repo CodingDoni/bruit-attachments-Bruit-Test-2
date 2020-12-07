@@ -1,0 +1,8 @@
+
+2:14:15 PM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+2:14:15 PM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title","value":"132"}	
+2:14:09 PM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+2:14:09 PM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+2:14:09 PM	click	// 
+	
+2:14:08 PM	url	https://bob.rewi.uni-mainz.de/ebis015/bruit.php	

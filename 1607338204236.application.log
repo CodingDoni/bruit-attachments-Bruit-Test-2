@@ -1,0 +1,22 @@
+
+11:50:01 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:50:01 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+11:50:00 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:50:00 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+11:49:59 AM	click	// 
+	
+11:49:47 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:49:47 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+11:49:46 AM	POST =>	https://api.bruit.io/feedback/multipart/utf16	
+11:49:45 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+11:49:45 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:49:45 AM	click	// 
+	
+11:49:11 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:49:11 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title","value":"Ich finde dieses Tool herausragend schlecht. Wieso klappt das nicht?"}	
+11:49:10 AM	POST =>	https://api.bruit.io/feedback/multipart/utf16	
+11:48:48 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:48:48 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+11:48:48 AM	click	// 
+	
+11:48:47 AM	url	https://bob.rewi.uni-mainz.de/ebis015/bruit.php	

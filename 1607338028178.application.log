@@ -1,0 +1,8 @@
+
+11:47:04 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title","value":"Jap"}	
+11:47:04 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:47:00 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+11:47:00 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:47:00 AM	click	// 
+	
+11:46:59 AM	url	https://bob.rewi.uni-mainz.de/ebis015/bruit.php	

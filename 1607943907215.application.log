@@ -1,0 +1,16 @@
+
+12:04:58 PM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+12:04:58 PM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+12:04:57 PM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+12:04:57 PM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+12:04:56 PM	click	// 
+	
+12:04:56 PM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+12:04:56 PM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+12:04:56 PM	click	// 
+	
+12:04:55 PM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+12:04:55 PM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+12:04:55 PM	click	// 
+	
+12:04:52 PM	url	https://bob.rewi.uni-mainz.de/ebis015/bruit.html	

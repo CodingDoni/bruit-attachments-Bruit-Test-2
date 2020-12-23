@@ -1,0 +1,20 @@
+
+11:23:49 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":true}	
+11:23:49 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title","value":"Top"}	
+11:23:46 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:23:45 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+11:23:45 AM	click	// 
+	
+11:23:22 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title","value":"Si Si"}	
+11:23:22 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:23:20 AM	POST =>	https://api.bruit.io/feedback/multipart/utf16	
+11:23:08 AM	log	{"id":"agreement","type":"checkbox","label":"I agree to send technical information in addition to my answers","value":false}	
+11:23:08 AM	log	{"label":"Ist alles zu Ihrer Zufriedenheit? ","type":"text","id":"title"}	
+11:23:08 AM	click	// 
+	
+11:23:07 AM	click	// 
+ <ion-toggle>	
+11:23:07 AM	click	// 
+ <body>  
+ss<ion-toggle>	
+11:23:04 AM	url	https://bob.rewi.uni-mainz.de/ebis015/bruit.html	
